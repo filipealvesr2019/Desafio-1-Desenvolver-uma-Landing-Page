@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Raleway:wght@700&display=swap');
-*{
+body{
     margin: 0;
     padding: 0;
 }
 /* heeader*/
 header{
     background-color: #303030;
-    height: 250px;
+    height: 300px;
 }
 
 #logo{
@@ -19,6 +19,7 @@ header{
 }
 #titulos{
     padding: 2rem;
+    margin-bottom: 0.5rem;
 }
 h1{
     color: white;
@@ -46,12 +47,12 @@ h2{
 #secaoB{
     display: flex;
     justify-content: space-around;
-    height: 350px;
+    height: 450px;
     padding: 3rem;
 }
 img{
     height: 100%;
-    width: 20%;
+    width: 28%;
     
 
 }
@@ -70,7 +71,7 @@ strong{
 #texto{
     display: flex;
     flex-direction: column;
-    margin-top: 6rem;
+    margin-top: 4rem;
     
 }
 
@@ -82,7 +83,7 @@ footer form{
     align-items: center;
 }
 input{
-    width: 25%;
+    width: 30%;
     margin: 1rem;
     height: 2rem;
     border: 0;
@@ -102,7 +103,7 @@ input::placeholder{
     font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         margin-bottom: 2rem;
 }
 
@@ -110,7 +111,7 @@ input::placeholder{
     font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.4rem;
         color: grey;
 
 }
@@ -119,7 +120,7 @@ h3{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #FFFFFF;
     margin: 4rem;
     margin-bottom: 1rem;
